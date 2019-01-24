@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "createApp": "./bin/index.js"
+    "app-cli": "./bin/index.js"
   },
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "art-template": "^4.13.2",
     "chalk": "^2.4.2"
   },
   "devDependencies": {
