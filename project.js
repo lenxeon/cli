@@ -1,18 +1,13 @@
 module.exports = {
     files: [{
-        name: 'js',
-        type: 'dir'
+        type: 'dir',
+        name: 'js'
     }, {
-        name: 'css',
-        type: 'dir'
-    }, {
-        name: 'images',
-        type: 'dir'
-    }, {
-        name: 'fonts',
-        type: 'dir'
-    }, {
-        name: 'index.html',
         type: 'file',
+        name: 'ccc_{{name}}_001.css',
+        source:'template/index.css',
+    }, {
+        type: 'file',
+        name: 'cccc_{{name}}_001.js',
     }]
 }
