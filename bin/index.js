@@ -30,7 +30,7 @@ let mkdir = function (dir) {
         dir = dir.replace('//', '/');
     }
     let paths = dir.split('/');
-    for (var i = 0; i < paths.length; i++) {
+    for (var i = 0; i <= paths.length; i++) {
         let dir = paths.slice(0, i).join('/');
         if (dir && dir.indexOf('/') == 0) {
             console.log('mkdir', dir);
